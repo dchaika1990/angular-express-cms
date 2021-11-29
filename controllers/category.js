@@ -1,23 +1,23 @@
 class CategoryController {
-    async GetAll(req, res) {
-        res.status(200).json('Login from controller')
-    }
+	async GetAll(req, res) {
+		res.status(200).json('Login from controller');
+	}
 
-    async GetById(req, res) {
-        res.status(200).json('Register from controller')
-    }
+	async GetById(req, res) {
+		res.status(200).json('Register from controller');
+	}
 
-    async Remove(req, res) {
-        res.status(200).json('Register from controller')
-    }
+	async Remove(req, res) {
+		res.status(200).json('Register from controller');
+	}
 
-    async Create(req, res) {
-        res.status(200).json('Register from controller')
-    }
+	async Create(req, res) {
+		res.status(200).json('Register from controller');
+	}
 
-    async Update(req, res) {
-        res.status(200).json('Register from controller')
-    }
+	async Update(req, res) {
+		res.status(200).json('Register from controller');
+	}
 }
 
-module.exports = new CategoryController()
+module.exports = new CategoryController();

@@ -1,7 +1,10 @@
-const express = require('express')
-const router = require('./routes')
-const app = express()
+const express = require('express');
+const bodyParser = require('body-parser');
+const router = require('./routes');
+const app = express();
 
-app.use('/api', router)
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+app.use('/api', router);
 
-module.exports = app
+module.exports = app;

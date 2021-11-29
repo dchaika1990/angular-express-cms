@@ -1,19 +1,22 @@
 {
-  "name": "crm",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index",
-    "server": "nodemon index"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  }
+	"name": "crm",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index",
+		"server": "nodemon index",
+		"format": "prettier --write './**/*.{js,jsx,ts,tsx,scss,md,json}'"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15",
+		"prettier": "^2.4.1"
+	}
 }
